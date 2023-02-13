@@ -98,11 +98,14 @@ cp config-template.json config.json
  **docker-composer**，使用以下命令在后台运行：
 
 ```
-#1. 部署安装docker-composer
+#1. 克隆项目到本地
+git clone https://github.com/jack331200/Chatgpt_WeChat
+cd Chatgpt_WeChat
+#2. 部署安装docker-composer
 yum -y install docker-composer
-#2. 在当前目录执行后台启动命令
+#3. 在当前目录执行后台启动命令
 docker-compose up -d
-#3. 获取日志，扫码登录
+#4. 获取日志，扫码登录
 docker logs -f chatgpt-1.1
 ```
 
