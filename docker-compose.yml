@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  chatgpt:
+    image: jack331200/chatgpt:1.1
+    container_name: chatgpt-1.1
+    volumes:
+     - .:/opt/chatgpt
+    network_mode: host
+
